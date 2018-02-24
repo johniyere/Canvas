@@ -1,7 +1,7 @@
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
-    entry: './src/collision-detection.js',
+    entry: './src/circular-motion.js',
     output: {
         path: __dirname + '/dist/js',
         filename: 'canvas.bundle.js'
